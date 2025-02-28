@@ -1,0 +1,148 @@
+:root {
+  --cor-fundo: ;
+  --cor-letra: ;
+  }
+  
+body {
+    background-color: var(--cor-fundo);
+}
+
+p,li,ol {
+    color: var(--cor-letra);
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+h1,h2,h3 {
+    color: var(--cor-letra);
+    text-align: justify;
+    font-size: 2em;
+    margin-bottom: 0.5em
+}
+
+header {
+  display: flex; gap: 20px;
+  color: var(--cor-fundo);
+  background-color: var(--cor-letra);
+}
+
+section {
+    width: 330px;
+    background: var(--cor-fundo);
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--cor-letra);
+    border-radius: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+details {
+    margin: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--cor-letra) transparent;
+}
+
+details > summary {
+    padding: 4px;
+    width: 160px;
+    border: none;
+    color: var(--cor-fundo);
+    cursor: pointer;
+    margin: 10px;
+    text-align: left;
+}
+
+main {
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+div.content {
+    padding: 20px;
+  }
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid var(--cor-letra);
+  width: 330px;
+  background: var(--cor-fundo);
+}
+      
+div.gallery img {
+  width: 330px;
+  height: 330px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: justify;
+  color: var(--cor-letra);
+}
+
+a:link, a:visited {
+  color: var(--cor-letra);
+}
+
+footer {
+  margin: 5px;
+  padding: 50px;
+  background: var(--cor-letra);
+  color: var(--cor-fundo);
+  width: auto;
+  height: auto;
+  border-radius: 15px;
+  align-items: center;
+}
+
+p.footer {
+  font-size: 250%;
+  color: var(--cor-fundo);
+}
+
+#preto {
+  background-color: var(--cor-preto);
+  color: var(--cor-branco);
+}
+
+#branco {
+  background-color: var(--cor-branco);
+}
+
+#vermelho {
+  background-color: var(--cor-vermelho);
+}
+
+#verde {
+  background-color: var(--cor-verde);
+}
+
+#azul {
+  background-color: var(--cor-azul);
+  color: var(--cor-branco);
+}
+
+#amarelo {
+  background-color: var(--cor-amarelo);
+}
+
+#ciano {
+  background-color: var(--cor-ciano);
+}
+
+#magenta {
+  background-color: var(--cor-magenta);
+}
+
+#brat {
+  background-color: var(--cor-brat);
+  font-family: Arial;
+}
