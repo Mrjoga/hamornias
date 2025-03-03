@@ -100,8 +100,8 @@ a:link, a:visited {
 footer {
   margin: 5px;
   padding: 50px;
-  background: var(--cor-letra);
-  color: var(--cor-fundo);
+  background: var(--cor-fundo);
+  color: var(--cor-footer);
   width: auto;
   height: auto;
   border-radius: 15px;
