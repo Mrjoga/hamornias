@@ -1,6 +1,9 @@
 :root {
-  --cor-fundo: ;
-  --cor-letra: ;
+  --cor-fundo: #82FAC8;
+  --cor-letra: #802128;
+  --cor-secundaria: #FA828A;
+  --cor-terciaria: #90FA82;
+  --cor-footer: #708F7E;
   }
   
 body {
@@ -108,41 +111,23 @@ p.footer {
   color: var(--cor-fundo);
 }
 
-#preto {
-  background-color: var(--cor-preto);
-  color: var(--cor-branco);
-}
-
-#branco {
-  background-color: var(--cor-branco);
-}
-
-#vermelho {
-  background-color: var(--cor-vermelho);
+#ciano {
+  color: var(--cor-fundo);
 }
 
 #verde {
-  background-color: var(--cor-verde);
+  background-color: var(--cor-terciaria);
 }
 
-#azul {
+#rosa {
+  background-color: var(--cor-secundaria);
+}
+
+#vermelho {
+  background-color: var(--cor-letra);
+}
+
+#cinza {
   background-color: var(--cor-azul);
-  color: var(--cor-branco);
-}
-
-#amarelo {
-  background-color: var(--cor-amarelo);
-}
-
-#ciano {
-  background-color: var(--cor-ciano);
-}
-
-#magenta {
-  background-color: var(--cor-magenta);
-}
-
-#brat {
-  background-color: var(--cor-brat);
-  font-family: Arial;
+  color: var(--cor-footer);
 }
