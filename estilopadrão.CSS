@@ -47,7 +47,7 @@ section {
   width: auto;
   height: auto;
   border-radius: 15px;
-  border: 5px solid var(--cor-terciaria);
+  border-right: 5px solid var(--cor-terciaria);
 }
 
 *::-webkit-scrollbar {
