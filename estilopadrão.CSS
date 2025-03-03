@@ -35,6 +35,10 @@ header {
 section.sumary {
     width: 330px;
     background: var(--cor-secundaria);
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px;
+    border: none;
 }
 
 section {
