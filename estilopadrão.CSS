@@ -32,9 +32,18 @@ header {
   background-color: var(--cor-letra);
 }
 
-section {
+section.sumary {
     width: 330px;
     background: var(--cor-secundaria);
+}
+
+section {
+  background: var(--cor-secundaria);
+  margin: 5px;
+  padding: 50px;
+  width: auto;
+  height: auto;
+  border-radius: 15px;
 }
 
 *::-webkit-scrollbar {
