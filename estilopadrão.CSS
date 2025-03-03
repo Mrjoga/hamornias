@@ -117,18 +117,18 @@ p.footer {
 }
 
 #verde {
-  background-color: var(--cor-terciaria);
+  color: var(--cor-terciaria);
 }
 
 #rosa {
-  background-color: var(--cor-secundaria);
+  color: var(--cor-secundaria);
+  background-color: #802128;
 }
 
 #vermelho {
-  background-color: var(--cor-letra);
+  color: var(--cor-letra);
 }
 
 #cinza {
-  background-color: var(--cor-azul);
   color: var(--cor-footer);
 }
