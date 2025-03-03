@@ -3,7 +3,7 @@
   --cor-letra: #802128;
   --cor-secundaria: #FA828A;
   --cor-terciaria: #90FA82;
-  --cor-footer: #708F7E;
+  --cor-quartenaria: #708F7E;
   }
   
 body {
@@ -28,7 +28,7 @@ h1,h2,h3 {
 header {
   display: flex; 
   gap: 20px;
-  color: var(--cor-secundaria);
+  color: var(--cor-quartenaria);
   background-color: var(--cor-letra);
 }
 
@@ -101,7 +101,7 @@ footer {
   margin: 5px;
   padding: 50px;
   background: var(--cor-fundo);
-  color: var(--cor-footer);
+  color: var(--cor-quartenaria);
   width: auto;
   height: auto;
   border-radius: 15px;
