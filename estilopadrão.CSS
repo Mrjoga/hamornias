@@ -113,8 +113,7 @@ a:link, a:visited {
 footer {
   margin: 5px;
   padding: 50px;
-  background: var(--cor-letra);
-  color: var(--cor-quartenaria);
+  background: var(--cor-quartenaria);
   width: auto;
   height: auto;
   border-radius: 15px;
